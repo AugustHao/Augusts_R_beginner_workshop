@@ -27,7 +27,7 @@ Also, remember this is an introductory level thing, which means that we won't be
 
 The list of topics are:  
 
-* Project scaffolding and manual version control
+* Project scaffolding and manual version control --- completed 03/03/2017
 
 * Version control using GitHub (which will familiarise you with how to contribute to this repository)
 
@@ -49,9 +49,9 @@ The list of topics are:
 
 * Spatial point processes
 
-* Making pretty figures using *ggplot*
+* Making pretty figures using ```ggplot```
 
-* Data manipulation using *tidyverse*
+* Data manipulation using ```tidyverse```
 
 * Introducing miscellaneous R packages that you might find useful 
 
@@ -62,5 +62,5 @@ The list of topics are:
 This is gonna take a lot of time to finish of course, but once it does, hopefully we will have a share resource that will help all of us to learn R and maybe even future students. I'll keep updating things from time to time, be on the look out for updates!  
 
 
-Cheers
+Cheers  
 August
