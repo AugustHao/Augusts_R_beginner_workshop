@@ -94,7 +94,6 @@ iris <- iris #I can also make comments as a suffix to a code, R wouldn't run any
 #selecting only the species Iris Setosa
 setosa <- iris[iris$Species == 'setosa',]
 #read the first few elements of newly defined setosa
-head(setosa)
 ####with all of these comments for everything you did, you are unlikely to confuse your future self.
 ```
 
@@ -109,7 +108,6 @@ setosa <- iris[iris$Species == 'setosa',]
 #I realised all of setosa had petal width below 1, which distinguishes them from the other species, therefore I can select setosas by specifying to R that I want to select all data with a petal width less than 1
 #setosa <- iris[iris$Species == 'setosa',] #this is the old code for assigning setosa, I've made it obsolete but I'm keeping it here
 setosa <- iris[iris$Petal.Width < 1,] #this is the new code
-head(setosa) #shows same result as last time
 ```
 
 ***
