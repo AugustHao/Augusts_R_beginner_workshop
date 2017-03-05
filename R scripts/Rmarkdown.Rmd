@@ -40,8 +40,32 @@ For the rest of this topic, I'm going to demonstrate what embedded code chunks l
 ```{r}
 #for demonstration, let's call the iris data again
 iris <- iris
-#let's tell R to print the first few values of iris
+#let's tell R to print the first few values of iris (I could call for the entire data set as well, but that would take too much space...)
 head(iris)
 ```
 
-Rmarkdown prints out the file and displays it in the document, neat!
+Rmarkdown prints out the file and displays it inside the document, neat! Note that this file is knitted (their way of saying making something) as a .md file specifically for GitHub. When you knit your own Rmarkdown documents as .html, the page layout might be a little bit different.  
+
+Let's do some operations with the data, and check how Rmarkdown presents the results:
+
+```{r}
+#say if we are only using petal.width and species for our analysis
+iris_new <- iris[,4:5]#here I'm assigning a new data frame with only the 4th and the 5th columns of the original iris data.
+str(iris_new)#checking the structure of our new data set, note how column number is 2 instead of 5
+#let's try to find out if there is a relationship between species and petal width, let's plot one against another
+plot(iris_new[,2],iris_new[,1])
+```
+
+See how both R's response to `str(iris_new)` and the plot were generated in this document, this is much faster than copying and pasting them to a word document when you want to show them to someone.  
+
+Now just to finish demonstrating with this dataset, let's test the statistical significance between petal width and species, and build a simple linear model with them (you don't have to understand what I'm doing here, this is just to show you what sort of responses R will have when I put in these codes)
+
+```{r}
+#build a linear model to use species to predict petal width
+iris.lm <- lm(formula= Petal.Width ~ Species - 1, data = iris_new) # the - 1 is for omitting intercept
+summary(iris.lm)
+anova(iris.lm)
+```
+
+***
+Again, as you see above, using Rmarkdown is a great way of making your analysis transparent and easy to be shown to others.
