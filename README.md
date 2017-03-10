@@ -38,7 +38,7 @@ The list of topics are:
 
 * Basic data cleaning and organising in R (we won't be covering this in detail as it's a massive topic)
 
-* Descriptive statistics and hypothesis testing (this would be a very short one)
+* Summary statistics and hypothesis testing (this would be a very short one)
 
 * Linear model(lm)
 
