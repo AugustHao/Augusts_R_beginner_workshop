@@ -1,4 +1,4 @@
-# August's R beginner workshop
+# Welcome to August's R beginner workshop
 materials for beginner's level R self-learning/workshops using Rstudio
 
 Code in this repository is copyright of August(Tianxiao) Hao, 2017.  
@@ -11,7 +11,9 @@ As I've shared this idea with you before, I think we could all benefit from know
 
 Therefore, I've started this R project, with the intention of collecting R learning materials and making them available for all of us. In the future I will also be looking into running face-to-face workshops on R, if we decide that sort of things would be good. Furthermore, I will also write instructions (in a few days) on how you could contribute to this project by uploading your own materials, if you decide to do so.  
 
-All right, down to business, here are some links to basic materials that I find helpful about R. I **highly recommend** going through the free online course link before trying on any of the topics. It will give you a lot of basic knowledge on what to do with data and it's very quick to do, don't be afraid!  
+###Resources
+
+Here are some links to basic materials that I find helpful about R. I **highly recommend** going through the free online course link before trying on any of the topics. It will give you a lot of basic knowledge on what to do with data and it's very quick to do, don't be afraid!  
 
 1. two books on learning R [*R Programming for Data Science* by Roger D. Peng](http://www.cs.upc.edu/~robert/teaching/estadistica/rprogramming.pdf), and [Jones, Owen, Robert Maillardet, and Andrew Robinson. *Introduction to scientific programming and simulation using R.* CRC Press, 2014.](http://www.ms.unimelb.edu.au/~odj/Teaching/MAST30025/spuRs_reformatted_part1.pdf). 
 2. [a free online course for basics in R](https://www.datacamp.com/courses/free-introduction-to-r) (data types, formats, basic operators etc.)
