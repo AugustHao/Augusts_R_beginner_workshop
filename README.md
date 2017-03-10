@@ -17,8 +17,7 @@ Here are some links to basic materials that I find helpful about R. I **highly r
 
 1. two books on learning R [*R Programming for Data Science* by Roger D. Peng](http://www.cs.upc.edu/~robert/teaching/estadistica/rprogramming.pdf), and [Jones, Owen, Robert Maillardet, and Andrew Robinson. *Introduction to scientific programming and simulation using R.* CRC Press, 2014.](http://www.ms.unimelb.edu.au/~odj/Teaching/MAST30025/spuRs_reformatted_part1.pdf). 
 2. [a free online course for basics in R](https://www.datacamp.com/courses/free-introduction-to-r) (data types, formats, basic operators etc.)
-3. [a useful cheatsheet on Rmarkdown](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) (we will go through what Rmarkdown is in one of the first topics).
-4. a book on data handling [*R for Data Science* by Garrett Grolemund & Hadley Wickham](http://r4ds.had.co.nz/index.html).
+3. a book on data handling [*R for Data Science* by Garrett Grolemund & Hadley Wickham](http://r4ds.had.co.nz/index.html).
 
 ###Topics
 
@@ -32,7 +31,7 @@ The list of topics are:
 
 * Project scaffolding and manual version control --- completed 03/03/2017
 
-* Version control using GitHub (which will familiarise you with how to contribute to this repository)
+* Version control using GitHub (which will familiarise you with how to contribute to this repository) --- completed 10/03/2017
 
 * Basics of Rmarkdown --- completed 10/03/2017
 
