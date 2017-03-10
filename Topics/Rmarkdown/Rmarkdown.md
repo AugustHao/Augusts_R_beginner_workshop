@@ -1,8 +1,6 @@
----
-title: "Rmarkdown"
-output: github_document
----
 
+#Rmarkdown
+###August Hao
 
 
 ## Rmarkdown? You are looking at it!

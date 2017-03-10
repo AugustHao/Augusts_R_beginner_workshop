@@ -32,7 +32,7 @@ The list of topics are:
 
 * Version control using GitHub (which will familiarise you with how to contribute to this repository)
 
-* Basics of Rmarkdown
+* Basics of Rmarkdown --- completed 10/03/2017
 
 * Basic data cleaning and organising in R (we won't be covering this in detail as it's a massive topic)
 
