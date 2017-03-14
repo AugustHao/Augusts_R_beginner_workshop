@@ -19,6 +19,8 @@ Here are some links to basic materials that I find helpful about R. I **highly r
 2. [a free online course for basics in R](https://www.datacamp.com/courses/free-introduction-to-r) (data types, formats, basic operators etc.)
 3. a book on data handling [*R for Data Science* by Garrett Grolemund & Hadley Wickham](http://r4ds.had.co.nz/index.html).
 4. [swirl](http://swirlstats.com/) --- a R package for interactively learning R
+5. [Wonderful R basics workshop material](https://nikkirubinstein.gitbooks.io/resguides-introductory-r-workshop/content/content/01-rstudio-intro.html) provided by the Research Bazaar's R workshop
+6. [Material for another amazing R workshop created by QAEco's own Elise Gould, thanks Elise!](https://github.com/egouldo/VicBioCon17_data_wrangling)
 
 ###Topics
 
