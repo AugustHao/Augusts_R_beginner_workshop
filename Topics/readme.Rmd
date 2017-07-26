@@ -1,10 +1,1 @@
----
-title: "Untitled"
-output: github_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ### to access topics in this folder, navigate to desired topic folder and click on the .md or .rmd file
