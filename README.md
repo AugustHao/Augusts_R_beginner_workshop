@@ -38,7 +38,7 @@ The list of topics are:
 
 * Basics of Rmarkdown --- completed 10/03/2017
 
-* Basic data cleaning and organising in R (we won't be covering this in detail as it's a massive topic)
+* Basic data cleaning and organising in R (we won't be covering this in detail as it's a massive topic) --- completed 26/07/2017
 
 * Summary statistics and hypothesis testing (this would be a very short one)
 
