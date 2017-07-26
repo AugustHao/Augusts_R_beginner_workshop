@@ -1,20 +1,20 @@
 
-###Project scaffolding and manual version control
+## Project scaffolding and manual version control
 author: "August Hao"
 date: "3 March 2017"
 
 
-###What is scaffolding?
+### What is scaffolding?
 
 Scaffolding (or structuring) a project simply means setting up your files in a project folder to make it easier to manage and to organise. Naturally, you will only need to manage your project in such a manner if you have a lot of files. If, for example, you only have one R script file to run, then it is more or less unnecessary to use R projects at all (we will talk about projects in a second). If, however, you have several data files (e.g. a .csv table for documenting some aspects of your species and a raster file for spatial information) or wish to produce several outputs using slightly modified codes from the same script, then scaffolding your project and version controlling it will save you a lot of time.  
 
-###What is a project?
+### What is a project?
 Projects in Rstudio allow you organise and keep track of your analysis neatly. When you create or load a R project, your Rstudio will start a new session (so remember to save your data and scripts before you do this!), and automatically set your working directory to the project's base folder (where the .Rproj file is). Working with analysis in a project is a lot neater when you have a lot of things to keep tracks of, and again, of course you don't have to always use one. Another benefit of R projects is that they make your analysis reproducible and accessible if the need arises, since you can share R projects with other people.  
 
 For more on R projects: <https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects>
 
 
-###What is version control?
+### What is version control?
 
 I've mentioned this idea a few times already: version control is just fancy language for keeping track of things. Specifically, it means documenting all the changes you (or others sharing the project) made to your project, so that at any time if you need to back track and see what you've done wrong (which happens to all of us a lot), it's a lot easier to do so. There are many platforms for version control, for example GitHub (this very project is stored on GitHub), and they can have pretty steep learning curves. Unless you are working with a very complex analysis, I in fact recommend you not to bother with them (many much more senior and experienced academics don't use them either). In this topic, I will show you some simple things you can do to make your progress easier to track.  
 
@@ -22,7 +22,7 @@ Wikipedia article on version control: <https://en.wikipedia.org/wiki/Version_con
 
 ***
 
-##Creating a R project and organising it
+## Creating a R project and organising it
 
 You can create a project in R by simply going to File > New Project in Rstudio. At this point you will be presented with options to create the project in a new directory, in an existing directory, or using version control (see below). At this stage let's not worry about version control yet.
 
@@ -68,18 +68,18 @@ For more on project scaffolding, check the following links:
 
 ***
 
-##Basic version control
+## Basic version control
 
 If you have a messy project with lots of things in it and it's getting very hard to keep track of everything, then I suggest using some version control programs such as GitHub. But if you have a simple project and you are confident that you can keep track of things manually with ease, then perhaps the following tips could be of help.  
 
-####keep a diary
+#### keep a diary
 Make a .txt file or a word document in your project folder, and every time you make progress or changes to your project, write down what you did, which files you touched, and the date you did it.  
 
-####order your files with number
+#### order your files with number
 I like to order my scripts and documents, so that it's easier to track the processes of my analysis and what I have to do before doing another thing. For example, check the screenshot below of my `R/` folder.  
 ![](order.png)
 
-####keep commenting on your codes
+#### keep commenting on your codes
 Sometimes it's easy to forget why you did something or what you did. To remind your future self what you are doing, it's good practice to keep comments for your R codes as detailed as possible. For example:
 
 ```{r}
@@ -92,7 +92,7 @@ setosa <- iris[iris$Species == 'setosa',]
 ####with all of these comments for everything you did, you are unlikely to confuse your future self.
 ```
 
-####do not delete old codes
+#### do not delete old codes
 By this I mean, if you change a chunk of your code to do something else, sometimes it's a good idea not to delete your older codes, as they might become useful in the future. But of course, if your code had an error and couldn't run, then you naturally needn't keep it. However, it could also be worthwhile to leave a comment on what error you had and how you solved it, so that if you run into the same problem again you'll know what to do.  
 
 A very simple way to 'retire' older codes without deleting them is simply adding '#' in front, so that R will not evaluate them. For example:
