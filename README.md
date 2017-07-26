@@ -3,7 +3,7 @@ materials for beginner's level R self-learning/workshops using Rstudio
 
 Code in this repository is copyright of August(Tianxiao) Hao, 2017.  
 
-###Introduction
+### Introduction
 
 Hi people,
 
@@ -11,7 +11,7 @@ As I've shared this idea with you before, I think we could all benefit from know
 
 Therefore, I've started this R project, with the intention of collecting R learning materials and making them available for all of us. In the future I will also be looking into running face-to-face workshops on R, if we decide that sort of things would be good. Furthermore, I will also write instructions (in a few days) on how you could contribute to this project by uploading your own materials, if you decide to do so.  
 
-###Resources
+### Resources
 
 Here are some links to basic materials that I find helpful about R. I **highly recommend** going through the free online course link before trying on any of the topics. It will give you a lot of basic knowledge on what to do with data and it's very quick to do, don't be afraid!  
 
@@ -22,7 +22,7 @@ Here are some links to basic materials that I find helpful about R. I **highly r
 5. [Wonderful R basics workshop material](https://nikkirubinstein.gitbooks.io/resguides-introductory-r-workshop/content/content/01-rstudio-intro.html) provided by the Research Bazaar's R workshop
 6. [Material for another amazing R workshop created by QAEco's own Elise Gould, thanks Elise!](https://github.com/egouldo/VicBioCon17_data_wrangling)
 
-###Topics
+### Topics
 
 Throughout this project I'm hoping to cover the following topics, they are not in particular order, although I will naturally start with easier topics first. If there is any topic that you would like to contribute on, please feel free to do so! It can be on doing a particular kind of analysis, presenting nice visuals, or introducing a R package. Feel free to include links to external useful sources if you like, just remember that this is a project in public domain, and you should be careful with copyrighted materials (which will be very unlikely to come across).  
 
