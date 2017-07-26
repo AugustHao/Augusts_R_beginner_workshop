@@ -1,6 +1,6 @@
 
-#Rmarkdown
-###August Hao
+# Rmarkdown
+### August Hao
 
 
 ## Rmarkdown? You are looking at it!
