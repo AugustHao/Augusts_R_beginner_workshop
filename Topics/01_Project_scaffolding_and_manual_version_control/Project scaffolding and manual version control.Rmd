@@ -1,7 +1,7 @@
 
 ## Project scaffolding and manual version control
 ## August Hao
-## 3 March 2017
+3 March 2017
 
 
 ### What is scaffolding?
