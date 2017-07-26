@@ -1,7 +1,7 @@
 
 ## Project scaffolding and manual version control
-author: "August Hao"
-date: "3 March 2017"
+## August Hao
+## 3 March 2017
 
 
 ### What is scaffolding?
