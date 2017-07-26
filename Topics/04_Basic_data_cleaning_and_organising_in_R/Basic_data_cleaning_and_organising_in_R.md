@@ -8,7 +8,7 @@ Problems with data?
 -------------------
 
 This topic deals with scenarios in which you found your data not to be
-at the state you want them to be, or when R has trouble intrepreting
+at the state you want them to be, or when R has trouble interpreting
 them -- so basically all the damn time. Typically, you might have
 problems with R misinterpreting the type and structure of your data, or
 you might have problems with NAs and mistakes in your data. Here we will
@@ -84,7 +84,7 @@ Common data structures:
 <tbody>
 <tr class="odd">
 <td align="center">vector</td>
-<td align="center">literally vectors as in the mathematical definition, note that data in a vector MUST be of the same type (i.e. you can't have for example numerics and characters in the same vector)</td>
+<td align="center">literally vectors as in the mathematical definition, note that data in a vector MUST be of the same type (i.e. you can't have for example numeric and characters in the same vector)</td>
 </tr>
 <tr class="even">
 <td align="center">matrix</td>
@@ -102,7 +102,7 @@ Common data structures:
 </table>
 
 Worth to note that factors are not formally a type of data, but simply
-data with levels assoicated with them, if you don't know what factors
+data with levels associated with them, if you don't know what factors
 are, please check out some of the tutorials I've linked.
 
 data type problems
@@ -129,9 +129,9 @@ fix either. A good habit to have it that, when you record data in Excel
 spreadsheets, try to keep data types in columns the same (i.e. all
 numbers no words or the other way round). If you have NA data you could
 also leave the cell blank instead of writing in "NA", which R will read
-as characters instead of actual NA. Lastly be careful of stray spacebars
-in random cells, R will often intepret them as characters as well (and
-by extension R will sometimes make them levels of factors, which is
+as characters instead of actual NA. Lastly be careful of stray space
+bars in random cells, R will often interpret them as characters as well
+(and by extension R will sometimes make them levels of factors, which is
 really annoying).
 
 There aren't as many common issues with data structures, because in most
@@ -143,8 +143,8 @@ complicated results, it's often a good idea to store them as lists (or
 vectors when you can). The reason for this is that matrices and data
 frame are made of columns that MUST HAVE same length, so it's a bit more
 work trying to set that up right. Also generally speaking converting
-vectors and lists to matrices or dataframes is easier than the other way
-round.
+vectors and lists to matrices or data frames is easier than the other
+way round.
 
 Factors
 -------
@@ -160,10 +160,9 @@ However, factors can also be harder to deal with. For example, if for
 one column you have factors with levels: A, B, and C and you wish to add
 a new entry with level D; R would not do so successfully (your new entry
 will be NA) because D is not an existing level in the column. To be able
-to overcome this, you need to mannually add D to the levels of the
-column or convert the column to characters so you can add things freely.
-Again, this is well covered in many tutorials, such as [RezBaz's R
-basics
+to overcome this, you need to manually add D to the levels of the column
+or convert the column to characters so you can add things freely. Again,
+this is well covered in many tutorials, such as [RezBaz's R basics
 workshop](https://nikkirubinstein.gitbooks.io/resguides-introductory-r-workshop/content/content/01-rstudio-intro.html).
 I won't go into too much detail on factors, but just as a general rule:
 it's nice to have everything in characters when you tidy your data, and
@@ -173,7 +172,7 @@ useful operations
 -----------------
 
 You may often need to edit, clean, or restructure your data. When doing
-these things, it's important to remember you should not overridde your
+these things, it's important to remember you should not override your
 original raw data. As I said in earlier topics, having your untouched
 raw data is essential to reproducibility and it's also a very useful
 backup if you do something wrong.
@@ -201,12 +200,12 @@ should I use fancy packages for tidying data?
 Base R is well equipped for tidying and preparing data, although you
 could do so more efficiently in `dplyr`. I personally don't use `dplyr`
 because I'm fortunate enough to work with relatively tidy and neat data
-and thus have no need for it. However from my limited expereinces with
+and thus have no need for it. However from my limited experiences with
 it I can confirm that it is indeed a better way, mainly because `dplyr`
 is just logically easier to plan out what to do.
 
 The downside however, is that there is a learning curve with `dplyr`, as
 it's style of commands and syntax is different from most R packages.
-`dplyr` is a good skillset to have if you are going to run R on daily
+`dplyr` is a good skillet to have if you are going to run R on daily
 basis, but I definitely recommend dedicating some time to learn how to
 use it before you start.
