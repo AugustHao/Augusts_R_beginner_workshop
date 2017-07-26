@@ -5,7 +5,7 @@ Code in this repository is copyright of August(Tianxiao) Hao, 2017.
 
 ### Introduction
 
-Hi people,
+Hi people, 
 
 As I've shared this idea with you before, I think we could all benefit from knowledge-sharing based workshops on R language using Rstudio. Many of us use R for analyzing our data, and although types of data can be very different, I think some general R skills can be useful in dealing with all sorts of scenarios.  
 
