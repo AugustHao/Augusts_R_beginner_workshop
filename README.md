@@ -26,7 +26,8 @@ Here are some links to basic materials that I find helpful about R. I **highly r
 3. a book on data handling [*R for Data Science* by Garrett Grolemund & Hadley Wickham](http://r4ds.had.co.nz/index.html). -- you will hear the name Hadley Wickham a lot in R communities, he's basically a God of R who's making a better version of all of R's basic functionalities. That being said you can often get away without using any of his packages, I barely touched any of the fancy Hadleyverse packages myself but if your project is data heavy it will come in handy for you.
 4. [swirl](http://swirlstats.com/) -- a R package for interactively learning R
 5. [Wonderful R basics workshop material](https://nikkirubinstein.gitbooks.io/resguides-introductory-r-workshop/content/content/01-rstudio-intro.html) provided by the Research Bazaar's R workshop -- they also run free R beginner workshops monthly at unimelb, make sure to check them out!
-6. [Material for another amazing R workshop created by QAEco's own Elise Gould, thanks Elise!](https://github.com/egouldo/VicBioCon17_data_wrangling) -- this is meant mostly for using R to handle data (importing, organising, cleaning, and analysing), and extensively uses Hadleyverse packages, imo it's a must for anyone into using Hadleyverse 
+6. [Material for another amazing R workshop created by QAEco's own Elise Gould, thanks Elise!](https://github.com/egouldo/VicBioCon17_data_wrangling) -- this is meant mostly for using R to handle data (importing, organising, cleaning, and analysing), and extensively uses Hadleyverse packages, imo it's a must for anyone into using Hadleyverse  
+7. [Some readings on how to better interpret R error messages](https://methodsblog.wordpress.com/2018/01/26/r-errors/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+wordpress%2Fmethodsblog+%28methods.blog%29)
 
 ### Topics
 
