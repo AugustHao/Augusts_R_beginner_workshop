@@ -1,32 +1,39 @@
 # Welcome to August's R beginner workshop
-materials for beginner's level R self-learning/workshops using Rstudio
+noob R stuff written by a noob
 
 Code in this repository is copyright of August(Tianxiao) Hao, 2017.  
+
+
+![](Misc/maymay.jpg)
+
 
 ### Introduction
 
 Hi people, 
 
-As I've shared this idea with you before, I think we could all benefit from knowledge-sharing based workshops on R language using Rstudio. Many of us use R for analyzing our data, and although types of data can be very different, I think some general R skills can be useful in dealing with all sorts of scenarios.  
+Feeling alone in the long and hard struggle against R? I got u fam  
 
-Therefore, I've started this R project, with the intention of collecting R learning materials and making them available for all of us. In the future I will also be looking into running face-to-face workshops on R, if we decide that sort of things would be good. Furthermore, I will also write instructions (in a few days) on how you could contribute to this project by uploading your own materials, if you decide to do so.  
+Actually I don't, I'm still struggling everyday and probably will struggle for the rest of my life, but  c'est la vie so I thought why not put together some materials and knowledge (which I've stolen from smarter people) for the benefits of all? (I'm a filthy commie I know)  
+
+So here we go, in this repository you will find materials on different topics in beginner's R, and hopefully they can help you to struggle ever so slightly less with the nightmare that is R, but hey at least you are now officially above the plebs still using Excel or SPSS! (laughing at them is the only way I get any sense of self-validation, please don't judge me)  
 
 ### Resources
 
-Here are some links to basic materials that I find helpful about R. I **highly recommend** going through the free online course link before trying on any of the topics. It will give you a lot of basic knowledge on what to do with data and it's very quick to do, don't be afraid!  
+Here are some links to basic materials that I find helpful about R. I **highly recommend** going through the free online course link (link no.2) before trying on any of the topics. It will give you a lot of basic knowledge on what to do with data and it's very quick to do, don't be afraid!  
 
-1. two books on learning R [*R Programming for Data Science* by Roger D. Peng](http://www.cs.upc.edu/~robert/teaching/estadistica/rprogramming.pdf), and [Jones, Owen, Robert Maillardet, and Andrew Robinson. *Introduction to scientific programming and simulation using R.* CRC Press, 2014.](https://www-taylorfrancis-com.ezp.lib.unimelb.edu.au/books/9781420068740) (link is unimelb only).
-2. [a free online course for basics in R](https://www.datacamp.com/courses/free-introduction-to-r) (data types, formats, basic operators etc.)
-3. a book on data handling [*R for Data Science* by Garrett Grolemund & Hadley Wickham](http://r4ds.had.co.nz/index.html).
-4. [swirl](http://swirlstats.com/) --- a R package for interactively learning R
-5. [Wonderful R basics workshop material](https://nikkirubinstein.gitbooks.io/resguides-introductory-r-workshop/content/content/01-rstudio-intro.html) provided by the Research Bazaar's R workshop
-6. [Material for another amazing R workshop created by QAEco's own Elise Gould, thanks Elise!](https://github.com/egouldo/VicBioCon17_data_wrangling)
+1. two books on learning R [*R Programming for Data Science* by Roger D. Peng](http://www.cs.upc.edu/~robert/teaching/estadistica/rprogramming.pdf), and [Jones, Owen, Robert Maillardet, and Andrew Robinson. *Introduction to scientific programming and simulation using R.* CRC Press, 2014.](https://www-taylorfrancis-com.ezp.lib.unimelb.edu.au/books/9781420068740) (link is unimelb only). -- never read the first one myself but it's online and free! Second one is written by unimelb researchers and is quite old fashioned (in a sense that it was meant for base R without any Graphical frontend such as Rstudio we all use today, and it covered a lot of basics of programming, the 101010110001 stuff), I quite liked the obscure details they covered, but it's a challenging read I find.
+2. [**a free online course for basics in R**](https://www.datacamp.com/courses/free-introduction-to-r) (data types, formats, basic operators etc.) -- this is a very good starter course for absolute newbies
+3. a book on data handling [*R for Data Science* by Garrett Grolemund & Hadley Wickham](http://r4ds.had.co.nz/index.html). -- you will hear the name Hadley Wickham a lot in R communities, he's basically a God of R who's making a better version of all of R's basic functionalities. That being said you can often get away without using any of his packages, I barely touched any of the fancy Hadleyverse packages myself but if your project is data heavy it will come in handy for you.
+4. [swirl](http://swirlstats.com/) -- a R package for interactively learning R
+5. [Wonderful R basics workshop material](https://nikkirubinstein.gitbooks.io/resguides-introductory-r-workshop/content/content/01-rstudio-intro.html) provided by the Research Bazaar's R workshop -- they also run free R beginner workshops monthly at unimelb, make sure to check them out!
+6. [Material for another amazing R workshop created by QAEco's own Elise Gould, thanks Elise!](https://github.com/egouldo/VicBioCon17_data_wrangling) -- this is meant mostly for using R to handle data (importing, organising, cleaning, and analysing), and extensively uses Hadleyverse packages, imo it's a must for anyone into using Hadleyverse 
 
 ### Topics
 
-Throughout this project I'm hoping to cover the following topics, they are not in particular order, although I will naturally start with easier topics first. If there is any topic that you would like to contribute on, please feel free to do so! It can be on doing a particular kind of analysis, presenting nice visuals, or introducing a R package. Feel free to include links to external useful sources if you like, just remember that this is a project in public domain, and you should be careful with copyrighted materials (which will be very unlikely to come across).  
+I'm hoping to cover a few topics relevant to R beginners in this repository, they are not in particular order, although I will naturally start with easier topics first. If there is any topic that you would like to contribute on, please feel free to do so!  
 
-Also, remember this is an introductory level thing, which means that we won't be able to cover all problems in each topics, and I expect the topics to be very elementary at start anyway. After all, this is a project that I hope we will build on and expand together over time.  
+As this is a noob-level thing, I'm not intending on covering stuff in great details, and I hope to often point you to better written guides about how to do stuff, cause I'm too lazy to write them myself and I'll probably such anyway.
+
 
 ***
 
@@ -40,31 +47,21 @@ The list of topics are:
 
 * Basic data cleaning and organising in R (we won't be covering this in detail as it's a massive topic) --- completed 26/07/2017
 
-* Summary statistics and hypothesis testing (this would be a very short one)
+* Loops/statements (your "if, for, and while" stuff)
 
-* Linear model(lm)
-
-* Generalised linear model(glm); GLMs are more complicated than LMs and they allow for more complex relationships, they are also a good starting point for learning other modelling algorithms
-
-* Model evaluation (goodness of fit/validation using predictions etc.)
-
-* Loops
-
-* Operating with GIS (will cover rasters only)
-
-* Spatial point processes
+* Writing functions
 
 * Making pretty figures using ```ggplot```
 
-* Data manipulation using ```tidyverse```
-
 * Introducing miscellaneous R packages that you might find useful 
 
-* Species Distribution Modelling (only basics, I don't know model tuning well either)  
+* Species Distribution Modelling (only basics)  
+
+* Keeping big projects tidy and reproducible
 
 ***
 
-This is gonna take a lot of time to finish of course, but once it does, hopefully we will have a share resource that will help all of us to learn R and maybe even future students. I'll keep updating things from time to time, be on the look out for updates!  
+**tl;dr** here's some stuff that might help you learn R  
 
 
 Cheers  
