@@ -58,7 +58,7 @@ The list of topics are:
 
 * Species Distribution Modelling (only basics)  
 
-* Keeping big projects tidy and reproducible --- --- completed 28/01/2018
+* Keeping big projects tidy and reproducible --- completed 28/01/2018
 
 ***
 
