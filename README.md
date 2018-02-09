@@ -55,7 +55,7 @@ The list of topics are:
 
 * Basic data cleaning and organising in R (read: for anything slightly more complicated than what I've shown you should use tidyverse packages!) --- completed 26/07/2017
 
-* Loops/statements (your "if, for, and while" stuff)
+* Loops/statements (your "if, for, and while" stuff) --- completed 09/02/18
 
 * Writing functions (how to spend hours doing somthing that has a small chance of saving you minutes in the future)
 
