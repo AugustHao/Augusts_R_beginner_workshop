@@ -22,8 +22,8 @@ return(output)
 
 Here, `name` is naturally the name of your function which you will use to call up later on. `argument1`, `argument2` etc are the names of variables which you *pass* to the function to be used in the `expressions` in the braces. You can see how it almost works just like loops/statements, with the exception that it has `arguments`. One important aspect/advantage of functions is that they come with their own *environment*, which means any variables you have defined **inside** the braces will not be present in your global environment, thus keeping your global environment tidy. The `return(output)` bit at the bottom tells R what you want out of your function. There are a few caveats about it: if you do not define return R will return the result of your last expression in the braces, and if you run a function without assigning it to a variable, the returned result will only be printed in your console, so remember to assign the output of a function! If you are interested on reading more about it check out [SpuR textbook, Chapt5](https://www-taylorfrancis-com.ezp.lib.unimelb.edu.au/books/9781420068740).
 
-Example function: comparing predictor importance between a linear model and a Random Forest
--------------------------------------------------------------------------------------------
+Example function: NA operations
+-------------------------------
 
 At this point you probably feel bamboozled, none of which I've said probably makes sense or feels useful. Don't worry, that's just my horrible teaching style, I promise functions tend to be more awesome than what I've described. To redeem functions to you, let's look at an example.
 
@@ -84,11 +84,11 @@ test.df
 ```
 
     ##           V1         V2 V3 V4        V5
-    ## 1  1.0764914  0.5468714 NA  5        NA
-    ## 2 -0.2875767 -0.0542906  1  6        NA
-    ## 3  2.7513215 -1.1749417  2  7 0.4793261
-    ## 4 -1.3119220 -0.2487477  3  8 0.3855476
-    ## 5  1.7252209 -0.8914971  4  9 0.0917090
+    ## 1  1.7612097  0.6513797 NA  5        NA
+    ## 2  0.5276064 -0.2287502  1  6        NA
+    ## 3 -1.3212947 -0.1330231  2  7 0.2706663
+    ## 4  1.2299805  1.4804646  3  8 0.2603078
+    ## 5 -2.1727245  0.4083746  4  9 0.7634586
 
 ``` r
 #run it through our function
