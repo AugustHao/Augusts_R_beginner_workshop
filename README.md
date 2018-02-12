@@ -21,7 +21,7 @@ So here we go, in this repository you will find materials on different topics in
 
 I should start with a BIG DISCLAIMER that this repository will NOT teach you the basics of using R. The reason for this is very simple: there are much much better guides and tutorials out there both online and in person. If you are completely new to R or think you need to brush up your skills, make sure to check out basic courses such as [**Datacamp's free online course in R**](https://www.datacamp.com/courses/free-introduction-to-r), which I consider to be the go-to place for R basics. There are plenty other places to check out for R learning too, which I will link to in the **Resources** section below.  
 
-What this repository IS is a place where I write about my experiences in dealing with particular challenges as a learner of R, and hopefully providing some help or guidance to fellow R coders who may also be suffering the same difficulties. I plan to do this by writing a few brief paragraphs on different topics (listed further down on this page), containing both my own recommendations and resource/links for further learning about said topic. Again, this is unfortunately limited by my experience with R, and probably doesn't cover everything you might have questions for. But perhaps it will grow to be something bigger with your contribution!
+What this repository IS is a place where I write about my experiences and limited knowledge in dealing with particular challenges as a learner of R, and hopefully providing some help or guidance to fellow R coders who may also be suffering the same difficulties. I plan to do this by writing a few brief paragraphs on different topics (listed further down on this page), containing both my own recommendations and resource/links for further learning about said topic. Again, this is unfortunately limited by my experience with R, and probably doesn't cover everything you might have questions for. But perhaps it will grow to be something bigger with your contribution!
 
 ### Resources
 
@@ -57,7 +57,7 @@ The list of topics are:
 
 * Loops/statements (your "if, for, and while" stuff) --- completed 09/02/18
 
-* Writing functions (how to spend hours doing somthing that has a small chance of saving you minutes in the future)
+* Writing functions (how to spend hours doing somthing that has a small chance of saving you minutes in the future) --- completed 12/02/18
 
 * Making pretty figures using ```ggplot```
 
