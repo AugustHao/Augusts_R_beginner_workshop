@@ -40,7 +40,8 @@ library(raster)
 #first we define our function: 
 #the only argument is the dataset we put in
 NA.detector <- function(dataset){
-    #first we check if the input data is indeed in a dataframe, if not we will terminate the function
+    #first we check if the input data is indeed in a dataframe
+    #if not we will terminate the function
     if(is.data.frame(dataset) != T){return(cat("ERROR: your data is not in a data frame!"))}
     #second we build a vector to tally all the NAs and their row number
     NAs <- c() #define the vector
@@ -53,13 +54,16 @@ NA.detector <- function(dataset){
     if (is.null(NAs) == T){
         return(cat("congrats your data is NA free!"))
     }else{
-        return(cat("oops your data has ",total.NAs,"rows containing NAs! They are located at row numbers: ",NAs,"\n"))
+        return(cat("oops your data has ",
+                   total.NAs,"rows containing NAs! 
+They are located at row numbers: ",
+                   NAs,"\n"))
     }
 } #done!
 
 #let's test this:
 
-#first we make a matrix containing NAs to see if the function recognise that it is not in a dataframe
+#first we make a matrix containing NAs to see if itrecognise that it is not in a dataframe
 
 test.matrix <- matrix(data = c(rnorm(10),NA,1:9,NA,NA,runif(3)),nrow = 5, ncol = 5)
 
@@ -79,24 +83,25 @@ test.df <- as.data.frame(test.matrix)
 test.df
 ```
 
-    ##           V1          V2 V3 V4        V5
-    ## 1  0.5792589 -0.16521579 NA  5        NA
-    ## 2  0.5480710 -0.30282053  1  6        NA
-    ## 3  1.4943424 -0.48227939  2  7 0.9190268
-    ## 4 -0.2215238  2.17026511  3  8 0.2024637
-    ## 5  0.2589710  0.01963002  4  9 0.5776992
+    ##           V1         V2 V3 V4        V5
+    ## 1  1.0764914  0.5468714 NA  5        NA
+    ## 2 -0.2875767 -0.0542906  1  6        NA
+    ## 3  2.7513215 -1.1749417  2  7 0.4793261
+    ## 4 -1.3119220 -0.2487477  3  8 0.3855476
+    ## 5  1.7252209 -0.8914971  4  9 0.0917090
 
 ``` r
 #run it through our function
 NA.detector(test.df)
 ```
 
-    ## oops your data has  2 rows containing NAs! They are located at row numbers:  1 2
+    ## oops your data has  2 rows containing NAs! 
+    ## They are located at row numbers:  1 2
 
 ``` r
 #now it's working properly!
 
-#let's test it on a bigger, more real-life like dataset. we will use airquality which is provided in R
+#let's test it on a bigger, more real-life dataset. we will use airquality which is provided in R
 
 #let's take a peek at airquality
 
@@ -116,7 +121,8 @@ head(airquality)
 NA.detector(airquality)
 ```
 
-    ## oops your data has  42 rows containing NAs! They are located at row numbers:  5 6 10 11 25 26 27 32 33 34 35 36 37 39 42 43 45 46 52 53 54 55 56 57 58 59 60 61 65 72 75 83 84 96 97 98 102 103 107 115 119 150
+    ## oops your data has  42 rows containing NAs! 
+    ## They are located at row numbers:  5 6 10 11 25 26 27 32 33 34 35 36 37 39 42 43 45 46 52 53 54 55 56 57 58 59 60 61 65 72 75 83 84 96 97 98 102 103 107 115 119 150
 
 ``` r
 #you can quickly see why functions are useful: 

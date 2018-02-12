@@ -38,7 +38,8 @@ library(raster)
 #first we define our function: 
 #the only argument is the dataset we put in
 NA.detector <- function(dataset){
-    #first we check if the input data is indeed in a dataframe, if not we will terminate the function
+    #first we check if the input data is indeed in a dataframe
+    #if not we will terminate the function
     if(is.data.frame(dataset) != T){return(cat("ERROR: your data is not in a data frame!"))}
     #second we build a vector to tally all the NAs and their row number
     NAs <- c() #define the vector
@@ -51,13 +52,16 @@ NA.detector <- function(dataset){
     if (is.null(NAs) == T){
         return(cat("congrats your data is NA free!"))
     }else{
-        return(cat("oops your data has ",total.NAs,"rows containing NAs! They are located at row numbers: ",NAs,"\n"))
+        return(cat("oops your data has ",
+                   total.NAs,"rows containing NAs! 
+They are located at row numbers: ",
+                   NAs,"\n"))
     }
 } #done!
 
 #let's test this:
 
-#first we make a matrix containing NAs to see if the function recognise that it is not in a dataframe
+#first we make a matrix containing NAs to see if itrecognise that it is not in a dataframe
 
 test.matrix <- matrix(data = c(rnorm(10),NA,1:9,NA,NA,runif(3)),nrow = 5, ncol = 5)
 
@@ -76,7 +80,7 @@ test.df
 NA.detector(test.df)
 #now it's working properly!
 
-#let's test it on a bigger, more real-life like dataset. we will use airquality which is provided in R
+#let's test it on a bigger, more real-life dataset. we will use airquality which is provided in R
 
 #let's take a peek at airquality
 
